@@ -39,7 +39,7 @@ print(id2rel)
 
 USE_CUDA = torch.cuda.is_available()
 #USE_CUDA=False
-path="questions.json"
+path="data/questions.json"
 train,dev=loader(path)
 data=train
 train_text=data['text']

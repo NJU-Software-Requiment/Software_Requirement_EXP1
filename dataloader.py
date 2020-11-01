@@ -16,7 +16,7 @@ def setup_seed(seed):
      random.seed(seed)
 
 setup_seed(44)
-path="questions.json"
+path="data/questions.json"
 
 
 def load_train(datalines):
