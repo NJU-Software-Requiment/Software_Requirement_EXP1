@@ -1,0 +1,1384 @@
+Add support for parametrized model builders injected from the IDE
+IDEA-229823: Add more YAML settings to editorconfig
+IDEA-252328: Consider Java installations from Gradle
+IDEA-253543: Include annotations in ChangeParametersRequest
+Replace size zero check with 'isEmpty'
+Fix typo
+IDEA-193572 Detect hooksPath from git config
+Add Invoker#forBackgroundPoolWithoutReadAction to allow parallel exec…
+reuse Gradle connections slightly less
+Remove redundant .toString()
+IDEA-252935 Lookup class from MethodLocation if available
+Bump junit from 4.12 to 4.13.1 in /plugins/lombok/test-manual
+Merge roots changed notifications from SourceFolderManager
+IDEA-252593: Introduce TempDir macro
+PY-44714: TypedDict: don't register problem with None
+Add Slack shield
+[IDEA-252000] Update firefox icon
+Include libraries in use-scope
+PY-40863 Highlight "{{", "}}" as escape sequence in fstrings
+Fix order of the Trinity constructor assignment
+IDEA-251257 Use selected classpath of run configuration for Gradle delegated application runs
+Fix IDEA-251181 by upgrading gradle-idea-ext to 0.9
+Revert usage of keymap.current.os.only key but set it to true by default
+Dependency resolution fixes in Gradle composite builds.
+Fix NPE in UsageViewImpl
+IDEA-124383 save dialog should edited file name
+File Colors Settings: Make new scopes available for colors configuration
+Scopes Settings: Align files colors when added to scope
+i18n: fix message key typo
+Add trusted host system property to InstallPluginService
+Fix IDEA-92793
+Add back log message for Gradle Java
+Fixed issue with JarOrder optimisation while building on Windows
+Check TODOs only inside committed lines in partial commits (IDEA-189479)
+Less noise in logs
+Use HTTPS for critical-startup-errors URL
+IDEA-248525 Support import of Javac compiler parameters per-module from Gradle
+Display name for JSON Schemas from schemastore where possible
+Change equalsHelper.vm
+Fix build outside jetbrains network
+Add system paths info to version app starter
+Fix incorrect output from fsnotifier on Windows.
+Remove final keyword from MockPsiManager
+[IDEA-247100] Add support for JDKs installed by asdf-java
+[git] migration to Java 11: use explicit 'setUI' call instead of 'ui' property
+Shelf Panel: Expand/Collapse actions
+Add support for Gradle 6.6 in DaemonAction
+Bug fix: virtualenv in project dir was not being auto-detected
+fsnotifier: Support mounted volumes
+Simplify redundant code
+Fix beforeRun handler for `GradleTask` with `JarApplication`
+Fix unbound variable errors with nounset mode bash terminal startup
+To log long refresh sessions details
+HTTP Proxy Preferences: Store the check url while dialog is open
+Fixed issue IDEA-245707
+Revise code to compile with JDK 11
+Fix minor grammar mistake / typo
+Remove final keyword from InvalidDataException
+Improve zsh integration: rc options, loading order, clash avoidance
+Make TempDirectory open
+IDEA-245329: Handle CONSTANT_Module and CONSTANT_Package
+add support RunConfiguration `JarApplication` for `gradle-idea-ext`.
+Fix performance issues in ProgressSuspender.freezeIfNeeded
+Fix SourceFolderManagerImpl.rescanAndUpdateSourceFolders
+Terminal: Handle spaces in path in .zshrc
+202
+Change installer to not show an error when no config file is provided and default to admin mode
+Disable Mnemonics check for context menu on macOS
+IDEA-217572 - add new inspection
+[intellij shell] Fix Shell heredoc parsing
+[intellij sh] Allow 3rd-party plugins to access Shellcheck inspection and settings
+IDEA-221360, IDEA-211290, IDEA-217229
+Add support for Python 3.10 version string
+[intellij sh] Allow ShSupport to control the error filtering of shell scripts
+[intellij sh] Simplify reuse and extensions by 3rd-party plugins
+[intellij sh] Use extension point instead of application service
+Match schemastore file masks against project-relative paths
+Convenient method for adding additional checkboxes to move file dialog
+Fixing issue with JarOrder optimisation while building on Windows
+Fixed the issue of not generating order.txt and classpath-order.txt
+Improve hotswap class detection when build is delegated to Gradle
+[intellij sh] Fix jflex warnings
+[sh] IDEA-233181: Fix handling of escaped newline characters
+[intellij sh] IDEA-242779 Improve parsing of Shell conditional commands.
+Bump websocket-extensions from 0.1.3 to 0.1.4 in /platform/built-in-server/start-up-visualizer
+IDEA-242757: Fix parsing of Shell Script redirects
+IDEA-242521 Fix HotSwap skipping cached gradle tasks in delegated build
+Merge pull request #1 from JetBrains/master
+Fix Kotlin models deserialization
+Reverse the logic to enable the inspection configurator
+Fix disabled slider thumb border color
+Update gradle to 6.4.1
+[python] update distutils/core.pyi according to library implementation
+Fix file returned by MarkdownSplitEditor#getFile()
+Document requirement for JavaFX in JDK
+Document requirement for JavaFX in JDK
+some map iteration optimisations at todo/FileTree.java
+typo in comment at TodoTreeBuilder.java
+[IDEA-241080] Fix issue with 'I do mind' showing up as path
+Update top border
+Toolwindow save bounds
+Use reflection in Gradle daemon actions
+IDEA-204711 IDEA-204333 Add the missing plexus-utils jar for Maven 2
+PyCharm: add prefix-f-string-intention
+Update reademe with JavaFX requirement
+PY-42270 Don't detach when 'inspect' flag is set
+Allow InspectionTool description through InspectionToolEntry
+Fix NPE in StartupUtil involving eulaDocument
+fix typo
+PY-41471: Verify that the plugin whitelist file exists before reading it
+IDEA-238860 Fix the loading of some GitHub Pull Request details
+Shell: Use resolve scope provider instead of static scope
+IDEA-239871 Shell: Improve parsing of regular expression conditions
+PyCharm: add "View as ..." for geopandas GeoDataFrame/GeoSeries to the debugger
+Remove final keyword from UpdateSettings
+Enable configurable spotlight border.
+PY-15046: Invert 'if' statement implementation
+IDEA-238805 The classloader reference in a cached disabled icon prevents unloading of plugins
+119
+PY-41889 - fix python console focus
+IDEA-237960: New config and system dirs for Linux
+Linux launcher script: `exec` the Java binary
+IDEA-219227 adding a system property to provide optional default gradle distribution type
+Fix link
+Add support for Log4J 2 to LoggerInitializedWithForeignClass inspection
+Add introspections to english.dic
+Jetbrains dictionary: add PostgreSQL
+Bro was found to be offensive in the Brotli algorithm
+Added retained and shallow sizes of classes to memory view
+Replace "Declare final" with bundle message
+Fix the structureViewModel of markdown element
+New default question word for boolean method name
+Support android.support.annotation.{GuardedBy,AnyThread}
+Fixed python console autocomplete by adding support for descriptors and metaclass members
+Don't use lazy methods to obtain tasks
+IDEA-236234 Keep the GlassPane instance up-to-date …
+fix javadoc emphasizing for Tree#setLeadSelectionPath
+correct indentation for TodoPanel.GroupByActionGroup class declaration.
+typo at javadoc for TodoTreeBuilder#myDirtyFileSet
+View shortest paths to gc roots in debugger dialog
+[Shell] IDEA-232910:  Support variables and sub-expressions in parameter expansions
+Fix bug: Cannot updating rendered document.
+Add a canRun overload with an executor parameter
+IDEA-218927 IDEATestNGRemoteListener remove extra lines from console
+typo at javadoc example of AnActionEvent#getRequiredData
+typo: String @NotNull [] -> @NotNull String[]
+Remove final keyword from ToolWindowHeadlessManagerImpl
+Support RGBA hex color values in XML spell checker
+PY-41143: correct format for pydev_log call
+Change "ToggleBookmarkAction" to respect selected text
+[JUnit5] Added calculating LocationHint attribute via ClasspathResour…
+Fix support for CREATE_EMPTY_DIRECTORIES
+Use System.lineSeparator() instead of System.getProperty("line.separator")
+Fixed "undescores" typo
+Shell: id attributes to allow ordering
+Fixed scalability issues with static final array
+[12 voted][IDEA-169034] Recognize and hyperlink project file path
+[Gradle] Avoid ConcurrentModificationException
+Use a Supplier to get EditorComposite's focusComponent
+Support androidx.annotation.GuardedBy
+Shell: support variable declarations outside of an assignment command
+Shell: Don't show intention "Rename all occurrences" if the rename was turned off
+Shell: Implement missing functionality to allow resolving and usage highlighting
+IDEA-231570 Support new LogBuilder API from Log4J 2
+Shell: Override ShFunctionDefinition.getTextOffset() to navigate to the name of the function
+IDEA-232541 JUnit5 - Inspect that @Order test method also have correct @TestMethodOrder on class
+[IDEA-232518] The balloon panel of a breakpoint is not FocusCycleRoot
+Pass current presentation mode status
+Subscribe for fewer Gradle events
+IDEA-53953
+Update pydevd_command_line_handling.py
+IDEA-231405 Fix `getGradleVersion` for wrapper distribution type
+IDEA-231222 Synchronize PathRelativizerService.myUnhandledPaths
+Fix default layout property being unset incorrectly
+[IDEA-230602] UI Thread Blocked when open a special .class file
+Do not override Scope Provider return type
+[IDEA-230486] Constructor references with type parameters are not recognized as PsiMethodReferenceExpression
+Make map (Collection) always return a mutable list
+[IDEA-230303] Enhance type inference for constructor references
+Handle Note Javac output lines
+IDEA-224062 Fixed unexpected paste behavior of Environment Variable table cell
+Change names in menu bar and edit configurations
+add table as a manifest token type
+Faster DebuggerUtilsImpl.readBytesArray
+IDEA-229943: Enhance type inference for extracted variables
+Update the MarkdownTest to include `<br>` outside of code blocks.
+Added Missing "Tip of the Day" image.
+Adds javadoc to ProcessHandler's abstract methods.
+Idea 229202
+Corrected code, when NIO methods silently failed for non-existing files
+PY-14631 Use IPython config file in Python Console
+Process the mouse event if it is a click
+Fix CustomizedActionGroup refresh
+193.5233:   Use svn plugin, default changelist: updating .        Update time is too long
+IDEA-217968: Force DirectoryBasedStorage VirtualFile to be a directory
+IDEA-146200: fix for Unused Property inspection in gradle.properties files
+[Gradle] Always create tooling model copy for GradleExtensions.
+Remove final modifiers added by commit eb5cf4a
+fix NPE in MacIntelliJButtonUI::getDarculaButtonSize
+IDEA-227734: report "return null" statements inside non-null methods
+IDEA-227649 LocalCanBeFinal: false negative in lambda body
+Remove no longer used getDetectedFileTypes
+Make getters public again, like their setters
+Pass along existing progress indicator if one exists.
+Fix Built Output Tool Window performance issues on projects with thousands of tasks
+Improve Method's param count evaluation
+When the migrated method parameter is bound to a super class type parameter, migrate the class type parameter
+enhancement: javadoc inspection "unexpected param tag order"
+TypeMigration converts some method arguments without checking compliance with the parameter declaration type
+Add the extension point for extending Annotate view.
+Make line info public and add line number and original line number to it.
+TypeMigration tries to convert Map<String, Object> to Map<String, String> without valid reason
+Javadoc fix
+Do not try to migrate string binary expressions
+Type cast expressions should be submitted to conversion rules for type migration
+Bad conversion of Ellipsis method parameter receiving a migrated array
+Update kotlin style format to kotlin style guide
+IDEA-227006 Associate stdout/stderr JUnit5 ReportEntry/reporting entries with proper test in IntelliJ as regular stdout/stderr
+TypeMigrationLabeler should traverse PsiParenthesizedExpression
+PY-37802 support pydantic dataclass
+Hides device selection from the configuration menu
+IDEA-226683 - "Fix doc comment" action removes valid type param tags from JavaDoc
+IDEA-226566: Use caching for large images
+Expose Invoker#useReadAction to StructureTreeModel
+Fix PY-38963
+TypeMigrationStatementProcessor should process non array PsiNewExpression the same way it processes PsiMethodCallExpression
+Implement serialization bindings for byte and char primitives
+Allow TypeMigrationProcessor to stop on first failed conversion
+IDEA-226374 Constant String field evaluation shows PsiType prefix
+Let TypeMigrationProcessor handle primitive/non-primitive conversion
+Add SpeedSearch in GitHub PullRequest List
+fix potential NullPointerException in Graphics2DLog
+Through TypeMigrationProcessor, allow to disable TypeMigrationLabeler warning
+Fix PY-38835
+Common code function name incorrect
+IDEA-226021: Fix unnecessary memory use
+Revert "cleanup"
+IDEA-225846: Cache GitRepositoryImpl instances to save memory
+Remove final keyword from IdeTooltipManager
+IDEA-225826 Update font of ActionButtonWithText
+Fix bug: environment variables of before run task can not be saved to…
+Null check is added for PopupChooserBuilder.myItemChosenRunnable:crea…
+IDEA-225641: Clear ResolveCache on low memory condition
+IDEA-225647 "View Mode" menu item text changes
+IDEA-225641: Use SofterReferences instead of SoftReferences
+Make LineMarkersPass constructor public
+Enable brace highlighting for read-only viewers
+Debugger: Provide MethodsTracker from JavaExecutionStack to PositionManagerEx t…
+Update README.md
+Another custom Logger.getInstance() inspection
+IDEA-215838 Fix memory leak in FindPopupPanel
+Fix typo in search dialog message
+It is recommended to add a json view window.
+IDEA-224349: Don't pass a partially initialized object to a different…
+Add linux-ppc64le check-condition to support fsnotifier-ppc64le binary usage
+MethodCallInLoopCondition enhancements
+visually separate DUMMY_IDENTIFIER text from the main text
+[IDEA-218836] Added SortLinesActions
+Add invokeLater helper
+Add unit tests for unindent with selection
+Make default Layout of TextEditorWithPreview configurable
+IDEA-223297 Snap full-size toolbar on right side of main-window
+PY-25689 image Sphinx directive doesn't work in docstring documentation
+Remove TooltipManager registrations on dispose
+Fix path bug ('/' instead of ':' on osx for example)
+Open a project by launcher.py when other window is already open
+[Sh] Allow 3rd-party plugins to override the ShRunConfigurationProfileState
+[Sh] Change visibility of properties of ShRunConfiguration
+IDEA-26855 Move system and config directories in Windows under %LOCALAPPDATA%
+Restore module intellij.jsp.base to java-api.jar
+PY-15468 Search class and instance attributes
+Make descriptor loading lazy in editorconfig plugin
+Additional modules not visible through thread context class loader
+Should the frame balloon be horizontally centered?
+fix util_methods.copy on NFS
+Add words coroutine and coroutines to dictionary
+IDEA-219943 language counters corner case
+[Gradle] Avoid task configuration in tooling model builders.
+Remove redundant spaces in code
+IDEA-220057: NPE in findWindowForBalloon()
+cache JAXBContext to avoid overhead on parsing every SVN operation result
+IDEA-22407: Comply with XDG Base Directory Specification on Linux
+Debugger inconsistent when using with pyspark DataFrames
+Fix AndroidXmlFormat issue when creating new layout
+Minor improvements in editorconfig language support
+ Check for settings file when looking for location
+JBR-1337: add logs on JavaFX init errors, prevent stuck IDE
+IDEA-218688 Refactor UpdateChecker for flexibility
+Add LibraryLicense for module-level library Joni
+Register FileEditorManagerImpl for disposal
+Throw IAE instead of AE from isExcluded
+Replace boolean expression with literal and comment
+Delete code dead since commit 51e756a
+allow overwrite key completion register
+Bump lodash.defaultsdeep from 4.6.0 to 4.6.1 in /platform/built-in-server/start-up-visualizer
+Improve support for gmavenplus-plugin
+Fix unstable order of dependencies and modules listed in iml files after import from Gradle
+Expose TextEditorWithPreview actions to subclasses
+DocumentationComponent: Added Base64 image support
+Event log whitelist storage
+Focus lost upon opening certain important dialogs.
+IDEA-212715 - fixed snapshooter's ClassNotFoundException on startup
+FileTypeManager logger message correction
+Optimize async stack frame loading
+Change UI designer form compiler modality to any
+Rid usage of StringBuilder by chaining appends
+Fix typo
+Use StringJoiner instead of hand-written joining pattern
+Cause "No proxy for" list to be comma separated after exanded
+Skip Kotlin classes in NotNullInstrumentingBuilder
+Use the total column width instead of the component width
+Avoid attaching multiple versions sources
+IDEA-209506 Skip empty classpath roots fed to JUnit5TestRunner
+Missing remote repository for org.jetbrains:markdown:0.1.31
+Add explicit types to method parameters intention
+Support contributed references for the ShVariable PSI element
+Remove interactive option for shells
+Use getArrowButtonPreferredSize(comboBox) instead
+Use get arrow button preferred size combo box instead
+Skip/ignore disposed modules in the project view.
+IDEA-182029: Improve New Package dialog usability
+IDEA-214615: Deactivate caret on dispose to avoid a memory leak
+Update sphinx_runner to use Sphinx >= 2
+Fix the variable name to not conflict with the implicit setter
+native fsNotifier: try to use a rule-based filename as alternative for ex. aarch64
+IDEA-212623 Folding comments in Java out of FileHeader/Class blocks
+ComboboxUI: Use user defined background if available
+IDEA-212508: Reduce memory footprint of MultipleBuildsView.myBuildsMap
+IDEA-212479 Prioritize overrides and getter/setter generation when sensible in auto complete
+IDEA-212454 Find usages does not detect generated accessors 
+Removed const and goto in Java Flex lexer
+IDEA-201196 Change signature: Moving a new element downwards doesn't transfer focus correctly
+fsNotifier: fix build on musl
+Use DarculaTableSelectedCellHighlightBorder
+remove duplicated documentationProvider
+Extend the Gradle project resolver to allow the following customizations
+Finish pending children ExecutionNode
+make getExecutable() generate a platform-specific filename
+[FIX] Error when no args passed to script.
+Set rootProjectName when copying BuildParticipant
+IDEA-131162 Detect recursion in Java call hierarchy
+FunctionalExpressionsIdentity inspection (IDEA-154488)
+ Add zip store properties from Gradle wrapper
+Support test parallelization in UsefulTestCase
+Added comparing description in MessageEvent.equals
+Decrement the current index after removing first element from buffer
+IDEA-210834 fix gradle properties not being read on distribution initialization
+IDEA-210834 fix gradle properties not being read on distribution initialization
+Unstage file for deletion if it's being reused
+Add missing quotes in NSIS configuration
+Recognize Chrome OS in SystemInfo
+Remove listener before calling deactivateIfNeeded (IDEA-210564)
+IDEA-210360 Make arrows in the navigation bar scale aware
+IDEA-200272 activate the session scope when looking up AbstractLifecy…
+Fix Gradle Daemons window with Gradle 5.3
+Fix a memory leak in DocumentImpl (IDEA-210051)
+FUS  make event logger configurable for IntelliJ plugins
+Fix bug in BuildOutputInstantReaderImpl
+IDEA-209898 SpeedSearch: Make Ctrl-Backspace also delete trailing whitespace first
+Use StringJoiner instead of hand-written joining pattern
+Prevent DeprecationWarning
+Remove option USE_PROJECT_PROFILE
+IDEA-205103 Sort maven archetype versions
+IDEA-209622: VCS Ignore minor changes option
+IDEA-188964 prefer an older but compatible plugin
+IDEA-168007 Make icon filters aware of CachedImageIcon
+Do not throw exception when unable to get constant pool
+Update inotify.c
+Use a Swing combobox in the configuration import dialog
+Reduce memory used for comparing branches (IDEA-209343)
+IDEA-208067: Fix memory leak via InlayModelImpl$AfterLineEndElementTree
+Enabling cross plugin communication.
+pytest: fix comparing asserts
+IDEA-208913 : better @AutoValue support in nullability inspection
+Surface error nodes on top of build steps
+Fix a memory leak in InternalDecorator (IDEA-208847)
+IDEA-207347 Allow a JTextComponent to avoid a swing undo manager.
+ActionButton component should be focusable.
+IDEA-208615: Fix one of UiNotifyConnector leak channels
+Upgrade pip, setuptools and virtualenv
+Change wording in tooltip when no unused imports found
+PY-16945: Support .coveragerc file
+Ensure GradleProjectResolver uses extensions extra model provider
+IDEA-208611: Fix a memory leak in IdeGlassPaneImpl._addListener
+IDEA-208610: Fix memory leaks in MouseDragHelper.attach and MouseDrag…
+decompiler: Recognize enum as keyword on Java 5
+Add missing break statement (see IDEA-208467)
+IDEA-208453: Fix a memory leak in GitXmlRpcHandlerService
+IDEA-208450: Fix a memory leak
+Decrement the current index after removing first element from buffer
+Check that build view is not null before sending events
+Add flake8 inspection supressor
+IDEA-208185: Fix a memory leak
+ExportableUserDataHolder: code reformat
+IDEA-137065: Support escape sequences for 8-bit and 24-bit colors in console window
+Changes the behavior of the package creation dialog
+IDEA-207657 Fix StringIndexOutOfBoundsException in DocumentWindowImpl#replaceString
+Maven: Import folders from multiple executions
+IDEA-207424 Add color constants for uidesigner.
+IDEA-207347 Allow a JTextComponent to avoid a swing undo manager.
+Use String::join instead of hand-written joining pattern
+IDEA-207106 Log deprecation notices for uses of registerFileType() instead of FileTypeFactory
+IDEA-207075 Better diagnosis for "scheduleIndexRebuild, reason: File type change"
+IDEA-201693 New SE: popup position should be relative to IDE, not to screen
+IDEA-206970 When copying task into LocalTaskImpl, grab original icon
+IDEA-141083  New Task  - Branch list improvements: SpeedSearch
+IDEA-206965 Mark focused component when opening UI Inspector
+IDEA-201941 Add countdown to "resolve changelist conflict" dialog to prevent accidental confirmations via the keyboard
+IDEA-206930 Don't complain when renaming branch to itself
+IDEA-206928: Show "plugin.xml (pluginName)" tab title irrespective of project type
+IJSDK-563 Fix incorrect rendering of copyable labels
+IDEA-171758 Support Guava collections in 'Suspicious collections method calls' inspection
+Add message bus topic for typing latency events
+Rename Co_verage to Coverage
+Make Gradle's ProjectImportAction more flexible
+Add support for Fish completions in terminal
+Re-enable canonicalization cache
+IDEA-197682 Dispose the CloseTab action with the editor.
+Remove dead code from DebugProcessImpl
+Allow more variants in Go to Line/Column dialog (IDEA-205713)
+IDEA-189773 Action to copy about info to clipboard
+IDEA-205705 Include file name in tab title for pom.xml and gradle build scripts (like plugin.xml)
+Get wrong value when debug
+IDEA-205629 Shift text range when getStartTagNameElement is null
+Don't modify TestPlan
+Fix a bug in JBLoadingPanel in setBounds method.
+PY-33474 updates pyparsing to version 1.5.6
+Fixed #IDEA-205163 performance leak
+Fix NPE inside `ExceptionRangeCFG::toString()` for `finally` exception range.
+IDEA-195932 enable "Check connection" for "No proxy"
+IDEA-204998: Use decompile classes in preference to library classes
+Fix invalid decompiled missing inner class references
+IDEA-204927 Add divider resize listener to Splitter.
+Fix #2 IDEA-141538: XML validator does not use a relative path to the XSD
+IDEA-202032 replace '/' with '.' when typing class name in the Create New Class dialog
+1st stage of fixing IDEA-204628
+Fix newline escape sequence in SdkSettingsStep.java
+Fix IDEA-202846: Use the Document and not the root Element to run XPath
+IDEA-204408 - Stop ignoring exceptions that occur during included bui…
+IDEA-204310: Decompiler adds redundant imports for lambdas
+Fix IDEA-141538: XML validator does not use a relative path to the XSD
+Display multiline replacements in the preview (IDEA-204269)
+Select first leaf that contains an error on Build view after build
+[external-system] don't always validate recursively
+[external-system] faster module select
+Fix IDEA-201331: Respect the annotations processors order
+[IDEA-123039] Use non-recursive Xalan str:tokenize() extension function instead of the recursive XSLT 1.0 hack
+IDEA-203912: assertTrue and assertFalse with a negative expression can be simplified
+[external-system] better message when many selected modules
+[IDEA-201343] Add standard Maven properties to pom.xml of just created Maven based module
+Typo in highligHting corrected.
+IDEA-203651: Improve check that source root type is for tests
+PY-23615 add warning for shadowing system modules
+Move Arrays::equals to the end of equals()
+Fix missing type parameter
+Don't call setLoggerFactory() of DefaultArtifactResolver and of Defau…
+Fix for IDEA-203194
+183
+In MultithreadSearcher, wrap element comparison in a read action
+[external-system] make IDE grouping by external project path
+Add OpenJ9 support to Windows Launchers.
+Update pydev_monkey_qt.py
+IDEA-202665 changed order of method resolutions for quick documentation
+Make code in UnnecessaryUnicodeEscapeInspection shorter
+Add more tests for UnnecessaryUnicodeEscapeInspection
+IDEA-201670 added error popup while creation setter for final field
+Differentiate syntax highlighting between control and non-control keywords
+Fix mouse wheel scrolling in image editor (IDEA-180216)
+Prevent ProgressSuspender from crashing in isInImpatientReader mode.
+In the RegExp form, check for HIT_END
+Fix Shift+Tab shortcut in RegExp form (IDEA-202189)
+Array can be replaced with enum values inspection added
+JUnit5 suggest, make reference and validate @EnumSource…
+Show modules in bold on Project View
+Fixed assigning single elements to varargs in named form.
+Resolving case-sensitivity issues in a package name resulting in compilation failure.
+removed deprecated option --recompile-scripts
+Don't suggest using streams if minSdkVersion < 24
+fix IDEA-142594
+Add option 'ignore != 0' to inspection 'Conditional expression with negated condition
+Fix race conditions in DumbServiceImpl and in ProgressSuspender.
+Suspend indexing while refreshing project structure
+Added test state to AccessibleName of test results entry
+[IDEA-201282] Ignore setting Maven Resolver's LoggerFactory for Maven…
+IDEA-201317: Add Cucumber4 Formatter
+Fix StringSearcher.scan bug
+[gradle] don't list too many projects in a dialog
+Fix JSON index performance
+IDEA-200434: Avoid creation of new ijinit.gradle scripts 
+Fixed an issue related to accessibility of changes tree
+Guard against NPE from early publication in NonClasspathClassFinder
+[gradle] allow to customize resolving modules per source set
+[platform] Support Python 2.6 in python launcher
+doc(testIntegration): Add some javadoc around test integration
+IDEA-200871 Tool Window should NOT transfer focus unconditionally.
+added "EvaluateExpression" to TouchBar
+GuiDesigner update
+GuiDesigner update
+IDEA-200509 - More suggested types of constructor method references
+Update VolatileLongOrDoubleField.html
+merge duplicated ArrayUtil.indexOf into single method
+Group External Modules in UI
+IDEA-199921 Revert commit d8423f0 after commit b6a57a9
+[Fernflower] Cleanup of collections-related classes
+[IDEA-199404] add community discord
+Refactoring - constant described several times
+Added an AccessibleName to Parameters table when refactoring parameters of a method. IDEA-199219
+Decompiler updates regarding Kotlin - 2
+[Fernflower] Improve output for float and double literals
+Detect extra syspath correctly
+[Fernflower] add test case for bad variable initialization
+IDEA-199694 Preserve line breaks in XML when reformatting.
+IDEA-199694 Preserve line breaks in XML when reformatting.
+Fix typo
+Add an explicit import for com.intellij.openapi.module.Module
+IDEA-199485: org.gradle.api.Incubating in Unstable API Inspection
+IJSDK-474 Clarify definition of "IDEA jdk" in README.md
+ExternalAnnotationsManager: added support for batch annotation
+Ignore Multiple External Projects
+JDWP: Ignore vmVersion number when attached to dalvik/Art
+Fix bug in ScrollColorProducer.
+Catch ClassCastException on GroupByTypeComparator
+IDEA-197106 Fix race condition when opening a project
+Allow to register existing external annotation files
+Add dependencies on KotlinTest
+Filter out more Gradle progress events
+Terminal tool window native tabs
+Add the ability to highlight java primitives separately from keywords.
+IDEA-198933: Fix painting of splash screen progress bar
+Add support for .editorconfig language
+Add a programmatic way to switch between views in the Build toolwindow.
+Unintended autocomplete when typing B or P in Kotlin
+[Decompiler] Fix super qualifier for default interfaces
+[Decompiler] Fix short name imports shadowed by super inner classes (IDEA-196315)
+ Created configurable group for tool window context menu
+Fix patching args in monkey patched subprocess module.
+build scripts: increase Xmx to fix OOM
+IDEA-166142 IDEA-198152 find full hierarchy for jar:/// files  …
+IDEA-166142 IDEA-198152 find and return also jar:/// files…
+Add support for multiple type parameters
+Respect conf.d of fish
+Decompiler updates regarding Kotlin - 1
+Decompilation of inverted floating point comparisons (IDEA-196302)
+Optimize plugin version checking when update intellij platform version
+fix extra semicolon in decompiled empty blocks IDEA-196314
+Fix format-string mismatch
+Use conventional directory structure for intellij.gradle.java
+Prevent exception wrapping to UndeclaredThrowableException
+Change resolve class scope to include libraries
+Move GradleInspectionBundle.properties into resource directory
+Uniformize all color scheme hexadecimal colors
+[vcs-log] fix typo in helper method
+Put "Batik CleanerThread" in alphabetical order
+Add GitLab time tracking IDEA-190710
+Shorten command line option "Classpath file": Support for Java 9 and …
+Switch JavaHelp license type to match bundled version
+Provide API to support context run configuration in Kotlin multiplatform projects
+YouTrack connector updates for task management plugin
+Auto-hide editor scrollbars
+Add a Way To Specify Class Names to Not Import Inner Classes For
+Fix group name in GotoTestRelatedProvider
+Add a Way To Specify Class Names to Not Import Inner Classes For
+Add RecentlyNullable and RecentlyNonNull to nullable list
+Allow override implementation handlers to customize result
+Add "delete unversioned" action shortcut in commit changes dialog
+Updated FiraCode font to version 1.205
+Fix for tabs alignment
+Fixed misleading parameter name
+Print useful debugging info when compilation fails
+IDEA-147781 ColorChooser: Opacity changing doesn't affect the results
+New unified build procedure in README.md (IJSDK-50)
+Resolve dependency sources in all repositories.
+Refactor ExportAction
+Allow alternative resolve in CombinedTestLocator.
+IDEA-192953 Fix replace switch with if on primitive wrapper uses equals
+Create project level notification configuration implementation
+IDEA-194080 Provide a way to override the insets in DarculaComboBoxUI
+Have common Icons for nodes in build view
+IDEA-189671: Refresh Editor Focus after closing split
+Make EditorWindow.INITIAL_INDEX_KEY public for plugins
+New function "regularExpression" for livetemplates.
+IDEA-193617 Fix a11y of combo boxes
+Delete to the first newline after indexToDeleteTo
+Gradle: upgrade Tooling API from 4.7 up to 4.8
+Eliminating tail recursion in JBDiff#split
+Fix path for open command in launcher
+fixed English language typo in Tip of the Day text
+IDEA-177512 added ExternalSystem TOPIC to notify when import has fini…
+IDEA-193199 Split ExportHTMLAction into specific implementations, all…
+Fix an error when the HEAD is detached
+Add an extension point for checking plugin versions during plugin updates
+Add @Nullable annotation to DomElement.getXmlTag()
+IDEA-193153 Allow BaseRefactoringProcessor subclasses to veto RefactoringHelpers and to provide custom UsageSearcher
+Pass caught exception when generating ExternalSystemException
+In my opinion, there aren't many people that committed message same as previous
+build scripts: allow products to define special icons for EAP builds
+Rename library to javax-inject
+[PY-27594] disable debug when Python gets input from stdin
+[PsiTreeUtil] adding findChildrenByFilter() method
+JavaDoc fix at PsiTreeUtil.findChildrenOfAnyType()
+Fix ThreeComponentsSplitter focus cycle
+PY-26863 Support 3dsmaxpy.exe
+Refactor getDefaultViewId and add explanatory comment
+Fix L&F change in ProjectView panel
+Support several postfix live templates on the same key
+IDEA-190710 Add Gitlab Time Tracking integration
+Avoid thread-unsafe SimpleDateFormat access in PerformanceWatcher
+terminal: disable bracketed paste (IDEA-177768)
+Fix the type reported in completion dialog for field based Geb page content
+IDEA-189919 provide a setting for property comments not convert to ascii
+Resize myOriginalDocument to a message boundary
+PY-29338: Sort out foreign relative imports from python ones
+map scipy/numpy objects to webpage name
+Simplify `DataKey.create` code
+WIP: Pydevd native trace
+IDEA-187826 Remove Unlimited checkbox in Structural Search
+Improving Python's standard library external documentation feature
+use equals for module name comparison
+Fix typo in "method return always constant" inspection
+PY-29110: Correctly process folders ending in .egg in PythonPathEditor
+PY-29092: Merge PYTHONPATH instead of overriding in console debugger
+PY-29051: Fix breakpoints on lines that throw exceptions
+Add support for Geb content definition based methods
+Remove duplicate orderEntry
+terminal: quote shell variable when testing
+Replace echo with printf to interpret \n as newline
+Symmetric start and end points for init ProgressIndicator
+Fix ThreeComponentsSplitter focus cycle
+Disable rerunImportAction when it is performed on refreshProject
+fix NPE: PsiFile.getContainingDirectory can return null
+Add support for nullability annotations in androidx package
+[PY-19218] Do not inherit parent environment ignored for PYTHONPATH
+use https for stdlib docs
+PY-28911: Prevent pydevd_tracing.SetTrace from being reentered
+Add an onStart method to ExternalProjectRefreshCallback
+Polish characters work regardless of locale
+Leak hunter sometimes uses stale roots
+[Fernflower] Ignore library classes when saving decompilation result
+Fish now will respect user's selected prompt
+Let unused TypeEvalContext instances be gc-ed
+Add versionDetailsProvider extension point to the platform.
+PY-28686: Fix PSI leak in AutoImportQuickFIx
+Changes to show sync issues messages on build view.
+Allow "Switch after create" when creating branch from repository location in SVN plugin
+hg4idea: Added a compare action to branch popup menu IDEA-187194
+PY-28629: Fix resolving skeletons for implicit relative imports
+Synchronize access to mutable fields
+JPS: add extension to provide additional constant affection resolvers
+PY-28562: Add implicit `object` super when class has new style metaclass
+Minor pydev changes/fixes
+Add CodeTriage badge to jetbrains/intellij-community
+PY-28512: Fix TypeEvalContext leak in PyRemoveParameterQuickFix
+py/pydev Add real directory of target to syspath
+Merge mockito libraries
+PY-28461: Fix completions for implicitly imported sub-packages from inside a package
+Fixed incorrect handling of nested branch locations in SVN plugin
+173
+Improve operations for document listeners
+Load SVG by specifying image dimensions
+PY-20075/PY-28393/PY-28332: Correctly resolve PyModuleType
+Make data-sharing consent company-specific
+Pycharm community project config fixes
+Support fetch for svn bridged repos
+GO-5316 allow to change scratch files silently
+Import correct version of XmlElement
+python: Remove import that's not needed and absent
+181.3263
+py/build: target the community plugin gant script
+py/resolve: consider all candidate module paths
+IDEA-185872 - Move enum to inner class without static modifier
+Improve description of "Type can be weakened" inspection
+More detailed tests for UnnecessaryUnicodeEscapeInspection
+IDEA-181940 Use the order type's comparator to sort
+Allow to bypass OOCB for lazy elements in non-Java languages
+IDEA-185286: fix bug in PopupFactoryImpl
+prevent django_manage.py from tracking changes in node_modules
+Improvements to “Execute Line in Console” feature in PyCharm.
+Custom iterator for SmartList
+Improve malformed identifiers handling in `-ren=1` mode
+Fix incorrect closing streams in sanselan IOUtils
+Fixes Task issue status being saved in a corrupt fashion for JIRA
+Make set next statement work properly for frame eval debugger
+Fix 'This function should be called while holding treeLock'.
+IDEA-163705: Add option to not log error on missing jars in JarLoader
+Update reference from jna-utils.jar to jna-platform.jar
+Do not use a hard-coded color for active tool header
+Add mechanism to trigger resolution on jars
+Get rid of unnecessary array wrapping
+Fix UI in Balloon
+[IDEA-179774] fix "Create Test" dialog does not fill test superclass …
+[PY-27710] Fix for erroneous "Too few arguments for format string"
+Add git4idea dialog handlers to extension points.
+Fix UI typo in RepositoryAttachDialog
+CONTRIBUTING: link to electronic submission of CLA
+IDEABKL-6449 Enable ISO-8601 date format via system property
+Introduce ScratchFileLanguageProvider
+IDEA-184002 Fix validation of resource directory names
+Make isImplicitReturnStatement public
+Scale should matter only if the type is NOT SVG
+Fix memory leak of StatusBar in IdeFrameImpl
+Dispose of the IdeRootPanel when disposing of the IdeFrame
+[IDEA-183953] Add test for unicode command
+Fix bug in resizing of DialogWrapper with large error label
+Ensure no protobuf string setters are set to null
+Attach LeakHunter output to the exception message
+IDEA-126094 Edit 'Before launch' entries with mouse left button double click
+Add scope="TEST" to dependencies on *-tests modules
+Git integration check-ignore command
+IJSDK-340 Using multiple optional dependencies against the same plugin causes one of the config files to be ignored
+IDEA-183411 Release lock while updating UI in AbstractTreeBuilder
+Remove unnecessary throws declarations
+Remove methods deprecated by commit 6061bb4
+Fix sporadic exceptions in AbstractTreeUi.
+Fix an ildefined comparator in AbstractTreeUi.
+improve contains() and containsAll() of SmartList and HashSet
+Annotate AnActionEvent parameter in AnAction.update as @NotNull
+FernFlower: Rename classes whose filenames will exceed 255 characters
+Enumerate module roots directly in ModuleHighlightUtil.getModuleDescriptor
+PY-20075: Fix false positive unused imports
+Simplify Arrays.asList().sublist().toArray()
+improve performance of logical conjunction
+Honor .mailmap
+support atomic save
+PY-27004: Use multiResolve to check if Python refs match
+PY-15360 Error on trailing comma after star args for Py<3.5
+PY-25655: Store super classes text in stub
+Making pydev compatible with Python 2.6
+[IDEA-169111] load fish functions on init
+Splice side effect from String concatenation
+how to edit privacy policy
+解决使用nosetest执行用例时，用例注释为中文unicode时的乱码问题。
+Improve the doc-comment on PsiNameIdentifierOwner
+Revert commit 8608f6e
+Fix NPE when decompiling constructor
+Adding ID for TipOfTheDayManager
+make EmptyList compatible with java.utilCollections.EmptyList
+Take moved lines into account
+Support creation and importing Gradle projects with Kotlin DSL build scripts
+Fix POP2 opcode handling bug with two category 1 values at the stack top.
+Duplicate entries in RESERVED_WINDOWS_NAMESPACE and absense of `con`
+Uses native temp file creation
+IDEA-180614: Rename Synchronize action to Synchronize with File System
+IDEA-180447 Reduce UI clutter by hiding Synchronize action from menu and toolbar when it is unlikely to be used
+IDEA-180548 Introduce PlatformUtils.isAndroidStudio method
+IDEA-180447: Hide Synchronize action when it is unlikely to be used
+PY-26413: More intuitive caret positioning on prev
+IDEA-144811
+Don't display parameter names for functional interfaces
+[Fernflower] prevent null to be cast as short/byte
+PY 24880: Fix console execution freeze with IPython + Jedi
+Fix for IDEA-180133: allow hg4idea to set hg executable per-project
+IDEA-180073 PlatformTestCase fails with "Code style settings damaged"
+Extends IdeaModuleBase to support jars
+generate hashCode: prefer HashCodeBuilder with default constructor
+Ep rascal transformation
+PY-26239: Fix find class usages performance
+fix TODO in ChangesListView.java
+IDEA-179472: Fix maven module not retrieving "release" version from config
+SyntheticLibrary::getBinaryRoots()
+PY-26081: Make 'getProcessOutput' respect cancellation by ProgressIndicator
+Do not force reindex on content files with compatible language levels
+PY-8933: Fix try with ImportError false positives
+Add elements into collection directly
+Update settings-repository plugin's "more info" link
+Run all nested tests in delegate to gradle mode
+Add copy URL to clipboard for Gist creation dialog in GitHub plugin
+Fix nested test classes run in delegate to Gradle mode
+Ini4j replaced by custom parser for .git/config.
+override SmartList.equals() for better performance
+Git4idea: pushurl without capital u
+PY-13273: Fix args in decorators assigned to incorrect scope
+PY-25794: Prevent unnecessary stub to AST switches in Python inspections
+Add name ID for usage tree component
+IJSDK-299 Fix stack overflow in EditorTextField.requestFocus()
+PY-20537: Flush scope caches on content reload
+Create extension point for pregenerated skeletons
+Move 'dropSelf' to PyFunctionType
+UAST: Fix receiverType for JavaUCallExpression
+IDEA-146215 SILENT Install should use admin parameters, if installed …
+PY-25491: Fix PyImportElement.getAsName incorrectly returning null
+IDEA-149976 Added "Reveal in Terminal" action.
+Minor UAST improvements
+Fix WideSelectionListUI for *_WRAP orientation
+Improve diagnostic when failing to delete files in tests
+Enhance Java builder completion for superclasses and generics
+Provide API for extending Create Field/Method from Usage
+IDEA-154288 - Gradle import: Support jdkName property in IdeaModule
+IDEA-175089 Move updateHistoryEntry call
+simple support for xslt 3.0
+PY-24987/PY-22496 (probably others): Search class attributes in implicit ref resolve and 'goto symbol'
+collecting variables debugger hang fix
+Fix for performance problem IDEA-174594
+Fix hierarchy export to file indentation
+Corrected typo
+PY-10985/IDEA-104596: Prefix based console history
+git annotate show author time instead of committer time
+[Fernflower] autoboxing primitives should not always be ignored
+UI: allow customizing the TabsUtil constants through PropertiesComponent
+meta element tag closing fix in HTML file template
+Avoid logging passwords in GradleExecutionHelper
+Introduce HighlighterLayer.WEAK_WARNING
+Remove current name from the suggestion list when renaming
+IDEA-170926 Do not show parameter hint when it matches the argument name
+Add multi-language support for "Analyze Data Flow To/From Here"
+Ignore idle threads of the common pool
+README.md: escape * and +
+Add Nullable for YAMLKeyValue::getParentMapping to sync it with YAMLKeyValueImpl
+IDEA-173861 Format string "%d%" is not flagged as invalid
+IDEA-173612 added ant log colors configuration
+Simplify logging output options to three, matching the options availa…
+Added support for anchors and aliases (YAML)
+Several fixes in UAST value analysis including
++ added Git rebase current branch action directly from VCS log
+Fix new line indent when alignment is enabled (IDEA-173208)
+Fix error when using behave 1.2.6dev
+pydevconsole unicode error ignore
+IDEA-172832. Support long module names in Find in Path.
+Remove usages and deprecate some obsolete StringUtil methods
+IDEA-145520 - Don't ask which changelist to make active if there is only one
+Additional line number pattern matching for the Open File Dialog
+Add missing package to pydev
+IDEA-73669 Allow branch to have longer name in status bar
+i18n for Change Type Signature and Thread Dump actions
+Add an extension point to support custom SDKs with future language features
+Decompiler: Remove 'Integer.valueOf()' boxing of literals
+IDEA-171697 Omit explicit arrays for vararg parameters in decompiled code
+Fix PyCustomMember.resolvesToClass
+Fix 'with as' statement for union types
+Made display name mutable for RunContentDescriptor
+Use same timeout for MultiProcessDebugger as for RemoteDebugger
+Added frame name passing to PyPositionConverter
+Date: remove usage of deprecated API
+Extracted abstract class from PydevConsoleExecuteActionHandler
+Added VC notification
+SystemHealthMonitor: fix notification race
+IDEA-171459 fix type cast for int literals used as byte / short
+Bug Fix : PySkeletonRefresher Cmd line too long
+Ensure '_latest_subtest_result' is set.
+Patch command line in PyPackageManager
+PyConsoleUtil HELP_PROMPT field to public
+PyConsoleCopyHandler fixes
+Speed up PyUnresolvedReference inspection
+Change return type of PydevConsoleRunnerFactory
+XML element not closed
+Respect configured up/down user keys in tree views
+IDEA-140862 Extend DefaultMutableTreeNode to support restoring tree selection.
+[Fernflower] Fixed: Use fully qualified static field name in conflict
+Replaced checkboxes ChangeListener with ItemListener
+Added ability to extends PreferredSdkComparator
+Recognize Wayland sessions in SystemInfo
+Sync idea_default_no_spellchecker.xml
+Allow jrt file system to be created in CoreApplicationEnvironment
+Guess project by file for line separator if document was modified outside of any command
+Added ability to patch python command line via Python sdk flavor
+Fixed: Get sdk flavor by sdkpath does not look through flavor from extension points
+PY-23150: Improve autocompletion speed for modules with a lot of top level symbols
+PY-12627: Share and persist 'search for text occurences' option
+Avoid splitting inline JavaDoc tags when reformatting.
+[pycharm] [py.test] Issue for locate test for django [build 171.3780.115]
+[pycharm] [py.test] Issue py.test for multiple source roots [build 171.3780.115]
+Add option for JavaDoc continuation indent.
+JavaDoc formatting refactor.
+IDEA-169037 Fix Kotlin download failure.
+Avoid deregistering roots that will registered again in fsNotifier
+Remove  the  `usleep` in fsNotifier main loop
+Add a way to skip git pre-commit and pre-push hooks (IDEA-115914)
+Python: support multiple import source directories with the same qualified name
+IDEA-151925: IntelliJ should be aware that a custom sourceSet contains Test sources for production code
+IDEA-105458 XML nodes shouldn't be always treated as leafs
+IDEA-168508 make collapse targets configurable
+IDEA-168575 introduced ant ansi color based on message type (error, w…
+IDEA-168525 introduced AntExecutionListener ExtensionPoint for plugin…
+IDEA-168525 introduced AntExecutionListener ExtensionPoint for plugin…
+Pasting mvn dependency with classifier to gradle
+Adds new macro expansion $MODULE_CONTENT_ROOT$
+Rewrite fernflower README with markdown
+Make MethodData.methodBody() resilient to non–stub-based PsiMethod implementations, as intended
+Pass the project as a parameter to getDefaultFolder.
+Update from Original
+Speedup gradle test output XML processing
+allow replacing items on patch application in ConsoleUI
+[junit5] Support FileSource and CompositeTestSource in 'Jump to Source'
+Custom postfix templates
+PY-21915 Fix PyDeprecationInspection for DeprecationWarning subclasses
+Fix PY-21991
+131
+Fill subject and description in Github Pull Request creation dialog
+163
+IDEA-165963 Gradle run configurations cannot be profiled
+Added building python debugger binaries for 2.6
+IDEA-165738 Gradle import is very slow in multi-module projects
+Improve messages displayed when a plugin is disabled or not installed
+i18n contributions for TogglePresentationModeAction, ToggleDistractionFreeModeAction, TabsPlacementAction
+i18n: TogglePresentationModeAction, ToggleDistractionFreeModeAction, TabsPlacementAction
+Added keymap loading using BundledKeymapProvider class resource loader
+Make RunContentManagerImpl.DESCRIPTOR_KEY public
+Update error messages for version control plugins to be more readable.
+Delete JAXB jars unused since commit 1179dbe
+Use existing jsr305 project-level library
+Address versions of trilead-ssh2 library
+Rename each Maven3 module-library
+make console patcher work
+fix OutputStream leak in Patcher's Bootstrap
+Address FieldAccessor.get compilation failure in JDK 9
+Added additional method to BudledKeymapProvider extension point to be…
+Fix: createDirectories doesn't handle symbolic links
+Replace assertTrue(stable.equals(stable))
+Test Hash comparisons using assertThat
+Remove duplicate boolean expression
+Remove duplicate boolean expression
+In type names, replace type params with concrete types
+Test Comparable IteratorPosition using assertThat
+ Make plugins/settings-repository/resources a resources root
+Make plugins/git4idea/resources a resources root
+Make platform/dvcs-impl/resources a resources root
+Fix mismatching varargs/array params in overrides
+Make plugins/svn4idea/resources a resources root
+Updated YouTrack icons for task plugin to match contemporary YouTrack presentatoin
+Pass otherwise unused buffersize parameters
+Fix test that catches AssertionError
+Add ability to provide name on MockModule for testing
+Add a custom python package identifier extension point
+ Expose finding class files for alternative bytecode viewers
+Expose finding class files for alternative bytecode viewers
+PY-18144 Support Pycharm import from zip files.
+IDEA-163243 fixed confussion in parameter names
+IDEA-162949 myTaskPriority set to verbosive
+IDEA-141243 added support for ant-contrib try/catch-task
+Updated YouTrack icons for task plugin to match contemporary YouTrack presentation
+LightCodeInsightFixtureTestCase: override hook replacing tempDirFixture
+Fix PY-21146,PY-21203,PY-21145,PY-21125
+Bugfix for migration to Stream API for sum() of List<Integer>
+PY-20616
+Fix memory leak inside the Gradle daemon caused by Idea Gradle plugin
+Update IDE setup instructions
+Update appName pattern
+Ensuring project directory is given priority prior to settings import
+PY-20771: Fix dataframe rendering issue in frames 100+ columns
+IDEA-146390 Modules generated from Maven sources named using artifact name
+IDEA-161410: Quick Documentation: double opening angle brackets are printed as single brackets
+Merge pull request #1 from JetBrains/master
+Merge pull request #1 from JetBrains/master
+Better Python Console
+Add support Stepik plugin
+IDEA-160742: Ctrl+Shift+F12 doesn't work in Terminal tool window. 
+[PyCharm] Fix python crash in module Qt5Gui.dll
+tab-completions(PY-9345)
+Implement parameter info in Console (PY-9939, PY-18586)
+Close All non-project
+fix debuggability for ipy notebook kernels
+Fixed typo in Groovy description for missing switch branch
+IDEA-90507 Close tabs to the right
+IDEA-157903 add "keep blank lines" option in properties code style
+Fix PY-20227,PY-20251,PY-20332,PY-20468
+IDEA-157902 FIX - Duplicated git items in "Find Action"
+IDEA-158882 Adding support for setting.xml set via .mvn/maven.config
+IDEA-157915: Fix symbolic-ref in HEAD #2
+Apply hard-coded contracts to assume methods
+Update `parametrize` signature in Pytest skeleton
+PY-11943 Add MutableMapping test and check
+Fix PY-1177 Control flow analysis doesn't detect while/break
+IDEA-157915: Fix symbolic-ref in HEAD
+(PY-19967) Fix code code completion in cases of namedtuple inheritance
+emit first key event when second keystroke timeout
+Replace coll.stream().forEachOrdered(..) with coll.forEach(..)
+Implemented SmartTemplateLanguageErrorFilter
+Fix PY-19826
+Implemented getHashCode(CharSequence,int,int)
+Implemented charAt(int) method
+Fix PY-19825
+Prevent JNA library conflicts
+enable debugging varargs where the first argument resolves to null
+incorrect NotNull import from com.sun... fixed
+Merge pull request #1 from JetBrains/master
+idea.bat: Honor IDEA_JDK_64 environment variable
+Fix for user profile path with spaces
+Ability to select and remove more than one Breakpoint in Favorites View
+Remove a special Windows-only call to WinPtyProcess.destroy
+Add additional deserialization note for index value violate
+Fix typo
+Allow to set breakpoints in non-".py" files.
+PsiPrimitiveType#getText(): avoid call to PsiType#getAnnotations() if redundant
+Preserve original file when performing copy for postfix template
+Typo fix
+IDEA-137640: New FileTemplate time variables
+Fix regression of PY-8165: Update precedence of pytest keyword format
+PY-19541: Fix test runner progress for py.test
+IJSDK-152: Settings Search - Spotlight does not work with c.i.u.TabbedPaneWrapper
+Fix PY-11224 -- Debugger, variable assignment from console inside function fails
+IDEA-118247 fix application of Color Scheme to Terminal.
+PY-14330: Pandas dataframes viewer in debug or console
+[Fernflower] Support Asserts that have the throw in the else clause instead of the if clause
+[Fernflower] Renaming support for .class field access and assertions
+Support for Groovy BaseScript annotation in package definition and im…
+[Fernflower] new option -osc: solves problems with method/field selection
+[Fernflower] New Testing Type: stdout comparison tests (including new test cases)
+[Fernflower] New Testing Type: stdout comparison tests (including new test cases)
+Comment out checking maven settings by file name
+Field Declaration Order Fix for Fernflower
+Fix PY-19266 -- Debugger config not being passed when connecting from console
+mistake
+Minor pycharm fixes
+Fixed issues with Jump to source/ Jump to Type in python debugger
+Fix Pydevd breakpoint issues on windows
+Make the `createCompleteMatchInfo` method public
+Inplace renaming of elements from different Psi trees 
+avoid duplicate String instances of JpsElementChildRoleBase.myDebugName
+Fix incorrect manual watch root calculations.
+145
+[Fernflower] Setup increment/decrement test properly
+Make NativeFileWatcherImpl#isRepetition protected.
+Changing path separator for creating gists
+replace increment / decrement synthetic access method
+fix constructor arguments for extended inner classes
+spell checker: levenshtein->damerau-levenstein
+[Fernflower] ClassReference14Processor cleanup
+Fix WM_CLASS x property not being null-terminated
+[Fernflower] Refactored IIdentifierRenamer to be more flexible.
+[Fernflower] Fixed annotations not being renamed properly and corrected the position of annotations relative to generated comments
+[Fernflower] Refactored IIdentifierRenamer, Fixed renaming annotations on classes, Fixed the location of generated comments relative to annotations, Improved the default renaming scheme.
+Prevent static field name clashes in local methods
+Correctly decompile interface object fields
+No need to scan scope for global inspection
+Removed Perl from default extensions
+New GIT option to disable fast-forward when merging into master from a log window
+Fix for Go to Class window loses focus during typing.
+Fixed `FlipCommaIntention` for Groovy files
+Show commits in git log history (IDEA-134161)
+Create From Usage: Introduce JVMElementMutableView to modify elements in other JVM-compliant languages
+Create From Usage: Introduce JVMElementMutableView to create/modify elements in other JVM-compliant languages
+Debugger: do not insert cast to runtime type for non java code fragments
+ start of vjava design
+Fix typo in FileDownloader javadoc
+Push Down: Introduce extension points to support interoperability with other languages
+[Fernflower] Make the default renamer rename classes that have a name that is reserved by the windows namespace
+Ignore Screens with a width or height of 0
+Fix broken link in plugin README
+Sort when writing plugin list
+[IDEA-137253] Fixed renaming class elements when decompiling
+Expose UpdateChecker.NOTIFICATIONS as public field for java usages
+Allowes to create WordScanner for cacheBuilder with thread-unsafe lexer
+Allow the WolfTheProblemSolver to disable the highlighting pass.
+IDEA-139310: Find Usages reports source code usages first
+LightVirtualFile type fix
+Add improvements to the Redmine task tracker
+Fix typo
+Preprocess options to extract --pythonpath and --settings
+Make compilable both with latest Kotlin and beta4
+IDEA-143271 - Correctly stub classes containing a dollar in their name.
+Notify frameworks about absence of library
+Open/Close Task Dialogs improvement.
+Open/close task dialogs improvement
+Scan files on more threads.
+Allow passing productPropertiesPath to build.
+Optimize setting watch roots.
+IDEA-91198 Maximize views in floating mode
+Do allocation-less clear() operations for empty structures.
+Use correct scheme/protocol when generating GitHub clone URL
+Do not process non-Java methods in JavaChangeSignatureUsageProcessor
+Allow plugins to provide language-specific implementation of "Introduce Functional Parameter"
+Add support for sending a module name to pydevd
+Make NativeFileWatcherImpl more generic
+IDEA-101238 fixed url parameter encoding for youtrack time tracking
+CodeDocumenationAwareCommenter: Fix copy/paste issues
+Typo
+IDEA-147131 "Add Copy Subject" action to VCS history context menu
+Add parent settings in Java Code Style
+Fixing import statement for ipython 4.0.0
+IDEA-147080 Groovy Pointless Boolean Inspection should remove double negation
+Use commit template if available
+IDEA-146898 DoubleNegationInspection only for booleans
+Disabled `PointlessBoolean` inspection for Spock's data tables
+Disabled `PointlessArithmetic` inspection when the expression is non-resolvable
+Fixed `ResultOfAssignmentUsed` inspection, when it's not in method
+Added `Convert to Operator` Groovy inspection
+Allow disabling HiDPI scaling with -Dhidpi=false
+Put path mapping storage behind an interface
+Fixed `BoolUtils#isNegation` to check for *logical* (instead of *bitwise*) negation
+IDEA-146472 "Close Unmodified" also closes pinned tabs
+Improve cross-compilation
+IDEA-136729 Find and download plugin dependencies from Enterprise Rep…
+Always check PATH in Git detector
+Add a new postfix completion template
+Fix file length check
+Canonicalize paths before sending to file watchers
+Support modifying directory rendering.
+align chained methods with comments properly
+[groovy] format comments properly in Spock 'where' tables
+Refactored external system services to reduce amount or write actions
+Fixed performance of DataNode#hashCode
+Decompiler name shadowing resolution
+Debug log level for project data services
+JavaDoc showAndGet function
+Pluggable file watcher
+Pluggable file watcher
+Fix IDE history when exception thrown
+IDEA-96179 Replace with a camel case string and Preserve Case
+Include more details for FS case setting mismatch
+IDEA-106194 Search in File structure dialog with paste support
+Allow using more than one color in structure view nodes
+Structure popup should check if filters are reverted
+fix:IDEA-128201
+Support navigation to the original element for generated source code
+Gradle wrapper location fix IDEA-145249
+RemoveUsageAction: Now selects a next item from the usage tree…
+Merge pull request #1 from JetBrains/master
+Usage View: Remove usages (like in Eclipse)
+[IDEA-138776] Maven polyglot support
+Fix annotation for `Iterable.iterator`
+Don't provide intentions or fixes that will modify generated sources
+added and marked as deprecated removed constructor ArchiveHandler.Ent…
+added and marked as deprecated removed constructor ArchiveHandler.Ent…
+Fixed issues related to generic type refs from cls
+Fixed decompilation of annotation values nested in arrays
+[IDEA-140807] Added an extension that allows to redirect navigation f…
+Update FormPreviewFrame.java
+Allowing users to specify environment variables in their embedded terminal sessions
+Fix for a null-pointer exception while decompiling
+Show line numbers by default
+IDEA-138533 Add checkbox to disable Maven keyboard shortcuts
+IDEA-132005 fix performance problem in ErrorPaneConfigurable.java
+Backport KeyFMap changes
+IDEA-139903 TaskManagement: Trello: Change 'number' placeholder in commit message
+Generate keys and values in each test case instead of use hardcoded constants
+publishing my image editor plugin
+Add the ability to get keys and values from KeyFMap
+IDEA-119938 copy reference of a field opened a new window
+PY-15166 Fixed subtest location marks for correct display in tree.
+[IDEA-138038] Added missing guards against dumb mode in JavaPsiFacadeImp...
+[IDEA-137300] Added ability to filter psi classes returned by JavaPsiFac...
+IDEA-57472 new tool window mode using frames
+added "Add Maven Dependency" quick fix for groovy
+Added a few additional foldings for Java, some based on Groovy
+fortify GitLogParser to fix IDEA-128280
+Added contributing guideline file
+Remove file based storage from project creation options (fixes first part of IDEA-137327)
+fix IDEA-132015
+add getContainingIds method to StubIndexImpl
+Fixed method clear in TestProjectBuilderLogger
+Move "$@@product_uc@@_VM_OPTIONS" to the end of line.
+Allow Git 'Compare with branch' popup to filter based on the branch name
+fsNotifier: Fix glibc version specifier for ppc64
+fix IDEA-128528
+Add support for paramaterizing varargs in PyCharm
+FileSystemUtil: Update JNA code to work on Linux/PPC
+Fix loading of C native library on FreeBSD with JNA < 4.1.0.
+Add method override autocompletion for Groovy Plugin
+check myAssertThreading before using assertIsDispatchThread
+Add support for specifying the debugging step size
+Correct capitalization on VCS
+Fixes issue with uncomment action removing a space after a comment prefix which ends with a space; refs IDEA-135341
+Fixes to CoreJavaFileManager
+Fixes minor typo in JS auto-completion keywords
+Support several result requests in createPrepareRequests method
+hg4idea close branch feature
+hg4idea: close branch
+[IDEABKL-7100] Create an instance of PsiElementFinderImpl via the extension point 'com.intellij.java.elementFinder'
+optimize plugin version checking when update intellij platform version
+resolve IDEA-133439
+Fixed flow for Ant build file validation
+OverriderUsageInfo: Store overriding PsiMethod in a separate field (to prevent replacement by "navigation element")
+Fix to #py-13969
+allow for inline noinspections, cf #py-13835
+Gradle dependency import should honor file name
+Added the Close All Projects and Close Other Projects actions.
+Added the Close All Projects and Close Other Projects actions.
+IDEA-132199 Fix Git get repo for python projects that are also installed in virtualenv
+Fix a path unescaping.
+[Decompiler] Don't include redundant casts even when castAlways is true.
+Add ipnb and the edu modules to repair PyC build
+Hi DPI Improvements
+Improve notifications in GithubRebaseAction
+Fix the asm jar version required by javac2 in ant build
+IDEA-130394 TestNG, diff link is not displayed when hamcrest is used
+Consider edited filename in SaveDialog.
+Fix minor typo on xml test file.
+IDEA-128774 ConsoleDependentFilterProvider added
+Add support choosing Gradle JVM
+Shelve changes to project dir.
+Static and dynamic call hierarchy for Python
+Adds the ability for secondary toolbar buttons to be right aligned.
+Adds the ability for secondary toolbar buttons to be right aligned.
+Install CustomShortcuts for Editor Up and Down in every trees widgets
+option BROWSEWORDATCARET removed
+Awesome WM support for IntelliJ
+IDEA-106381 GUI Designer: JComboBoxes list does not populated under JDK7...
+Solves IDEA-107376
+Make AdvancedEnhancer jarjar'able
+Resource bundle filtering
+IDEA-87163: Make the remove-all-splits action always work
+Fixed adding property to XML properties file
+IDEA-126459: Fix "Extract chained constructor" checkbox not showing up
+BaseAnalysisAction now respects ignored directores.
+BasicStepMethodFilter.getMethodName() extracted to the separate interface
+Handle '@' symbol in ssh username
+unix launch script: ensure filenames with special characters survive the...
+fileContentIndexingVoter extension point
+Lazy load the icon in DependencyValidationManagerImpl.
+Convert ModuleFileIndex to a module-level service.
+When importing nested classes, insert regular rather than static imports...
+Console filters merging of results
+Actually allow using RootIndex in an UpSource-like environment. Without ...
+Show language name instead of internal id to user
+Add an option to only show trailing whitespace characters.
+Joined two console CompositFilters into one
+IDEA-104484 removed redundant console exception filters
+Small console improvements
+IDEA-123453 Maven failsafe environment variables
+Fix passing idea version when creating RunProfileState in
+Console performance optimizations
+IDEA-124294 remove the extra call to scheduleImport
+IDEA-51438 Maven: Allow explicit disabling of profiles
+IDEA-123665 richcopy enabled for console and highlighters [2]
+Don't repeat exception message twice
+Package prefix support for external build systems
+Change visibility of JBTerminalSystemSettingsProvider from package to public
+Fix infinite loop in MavenProjectsTree.findRootProject when there is more than one level of aggregate POMs
+Fix infinite loop in MavenProjectsTree.findRootProject when there is more than one level of aggregate POMs
+Give MavenImporters a chance to set user properties.
+IDEA-123665 richcopy enabled for console and highlighters
+PY-11531 Update module_redeclarator.py
+IDEA-121292 Download Sources does not work for snapshots
+small addition to build info
+Added the action for change the Tabs placement to None.
+IDEA-120753: Modified tool window weight to be configurable in the Intellij registry
+IDEA-90069 Keymap: allow resetting the changed key mapping to default.
+Add extension point for preprocessing of inner class usages
+IDEA-121616 Plugin API improvement: there no ability to detect any settings change in the idea from plugin.
+Fixed a warning, run maven build in maven 3.2.1
+IDEA-120753: Allow tool window weight to be configurable in the .idea.properties
+fix problem with single quote in project path
+Fixes path so that local modules get priority
+Add extension point for postprocessing of usages in the course of Move refactoring
+libnotifywrapper: Fix crashes when showing notification
+Fix maven-surefire-plugin argList.
+    ff
+Correctly interpret python __slots__ that are external references
+Remove plugin references that are not part of CE
+IDEA-119665 Memory leak in RemoteMavenServer when buildnumber plugin is used
+Activate Maven extensions during project resolution.
+Possibility to modify CreateTestDialog for scala plugin
+Filter out non-physical classes in DefaultClassNavigationContributor
+Updating the PivotalTracker state
+Add method ignore in i18n/Hard coded string inspection
+Prefer custom code fragment factory on context change
+SSH agent support for git and svn integrations
+Enable per-file trim-trailing-whitespace and ensure-final-newline settings
+add menu item "Navigation" -> "Scroll from source"
+add ghost mode to tool window properties (IDEABKL-3654)
+structural brace based folding for custom file types (IDEA-83026)
+highlight usages in custom file type works as text highlighting (IDEA-11...
+Custom filetype keyword completion
+brace matcher-based select word in custom file types (IDEA-117225)
+update tip of the day
+Run ant headless so no dock icon will appear
+PY-11317 Incorrect type detection for formatter string with java String ...
+Move to java-psi-impl to make classes available in intellij-core.jar
+IDEA-57875: Add Missing property quick fix
+Pycharm skeletons submodule
+Correct build fixes for pycharm
+Guard against awt.HeadlessException during builds
+Guard against an idea.home with spaces
+IDEA-116247 Path does not exist with cyrillic chars at Git
+Possibility opening tasks in browser using Issue URL pattern for generic...
+preventing ClassCastException in move refactoring
+Possibility to modify move refactoring dialogs from scala plugin
+svn4idea plugin, IDEA-96825: consider the "longest" (most specific) path...
+Fix for stable changes in JUnit 4.12-SNAPSHOT (should also work with earlier versions of JUnit).
+IDEA-114933 Search everywhere triggers if shift is pressed only once
+IDEA 114933
+Proper fix of PY-9356
+PY-9343 Add to OOTB console folding rules the *sys-package-mgr* lines
+PY-11175 Add speed search support for Python Integrated Tools
+Instructions for building with ant
+PY-9356 Clean .pyc should include $py.class files if jython interpreter is used
+PY-10020 Darcula: Python External Documentation Settings panel have not "blue"-dracula styled elements
+IDEA-114955 Add support for filtering by regular expressions in Subversion repository view
+Properly calculate short name for inner class with $
+Improved XmlSerializerUtil#copyBean -- moved type compatibility checks to compile time instead runtime.
+Improved XmlSerializerUtil#copyBean -- moved type compatibility checks to compile time instead runtime.
+MismatchedCollectionQueryUpdateInspection -- added "compute" update prefix
+IDEA-112775 git file history  make use of git describe command
+IDEABKL-1141 Allow plugins to use FoldingListener
+Fixed TypeConversionUtil#getAllBoxedTypeSupers (after f4a27e8).
+Allow inheritance from HierarchyBrowser implementations (Type/Method hierarchy)
+IDEA-113488 Find commits in git log from file history context menu
+Fixed TypeConversionUtil#getAllBoxedTypeSupers (after f4a27e8).
+IDEA-111450 - Fixes to redundant cast analysis of primitive comparisons
+Refactor method search classes for better reusability
+Fix for Kotlin compiler
+Implement extension support for MethodTextOccurrenceProcessor
+Extract inheritor candidate check into separate InheritanceChecker interface
+Expose a commit's branch in a few different places:
+Some refactoring for reusing GenerateEquals UI in scala plugin
+Some refactoring for reusing GenerateEquals UI in scala plugin
+IDEA-105361 - Subversion: Compare action doesn't work for revisions in History after path rename
+Custom "Malformed format string" inspection
+Some improvments in decompiling class files
+CoreJavaFileManager.findClass: properly resolve $ in inner class names
+Fix CoreJavaFileManager bug
+Expose a commit's branch in a few different places:
+Hg show branch name
+Add "VCS -> Mercurial -> Browse Changes...", allowing to browse changes ...
+SSH agent support for git and svn integrations
+[hg] Per the TODO on HgWorkingCopyRevisionsCommand::parents(), that meth...
+IDEA-108385: Allow to specify a rule which controls namespace attribute ...
+SSH agent authentication for git4idea, svn4idea
+svn4idea / git4idea SSH agent support
+IDEABKL-6802 Updating jdom library?
+IDEA-103973 Gradle wrapper detection is more generic
+removed unused libs and dependencies 
+Update tip of the day, fix invalid menu items, shortcuts, typos
+IDEA-105387 svn working copy root should never be marked as ignored
+IDEABKL-6771 Add optional parameter 'exceptionMessage' to @NotNull annotation
+fix commit error on non-ansi Windows and OSX.
+fix commit error on non-ansi Windows and OSX.
+IDEA-102051 Unable to toggle fullscreen view on linux.
+IDEA-104375
+removed duplicate class IElementType.Predicate (use com.intellij.util.containers.Predicate)
+fix maven autoimport - use build-helper-maven-plugin config
+Standard ordering expand/collapse all, expand all is always first
+Standard shortcut for expand all / collapse all
+IDEA-76357 Favorites View improvements: add expand all
+IDEA-104221 Console folding rules allow to add empty substring and after this console folding is not working anymore
+Code cleanup
+IDEA-36388 & IDEA-25232
+Update MockApplication.java
+String.trim().length() == 0 replaced by StringUtil.isEmptyOrSpaces some elements make deprecated
+Update ParametersList.java
+StringUtil.isEmptyOrSpaces improvements
+Fixes IDEA-84220 CTRL-F5 shortcut doesn't work in Hierarchy view!
+ method made public
+Change Signature -> Propagate Exceptions -> Toolbar added with Expand Al...
+CheckboxTreeBase.CheckPolicy was called with uncheckChildrenWithUnchecke...
+IDEA-78919 Resource Bundle Editor: Splitter forgets its position when switching between "Text" and "Resource bundle" tabs
+IDEA-98030 Encoding problem in comments in hg4idea plugin in IDEA
+IDEA-31957 Permit grouping and/or move up/down for build files in Ant toolwindow
+IDEA-99003 Render type parameters in project view
+IDEA-99287 ANT toolwindow: prevent duplicate build files
+IDEA-99403 Dont highlight 'super' / 'this' keywords, while highlighting 'Constructor Call'
+IDEA-99364 Highlighting constructor correction - highlight only javaReference, without type parameters
+IDEA-97675 There is no 'constructor call' usage in code preview in 'colors & fonts' for Java
+IDEA-66284 ant integration - "description" attribute for "attribute" ele...
+Make possible to use AddSupportForSingleFrameworkDialog as a standalone dialog
+IDEA-40104 Support Check/uncheck multiple items in Ant/Build file props/Filters
+IDEA-79593 Ant target filters configuration: table is randomly sorted
+IDEA-86115 Build file properties ant command line config is not saved to .idea/ant.xml
+IDEA-36076 Ant integration: allow to add and remove multiple files at on...
+IDEA-87874 input task doesn't use the defaultvalue
+InputFilter - api change for returning List
+머지 하시요
+CoreJavaFileManager.findClass: properly resolve $ in inner class names
+add Groovy Introduce local variable.
+IDEA-36137  Drag-n-drop Ant scripts to Ant Build tool window 
+IDEA-97356 Link "Specify Master Password" dialog to the Help topic
+make the tools/lexer/jflex-1.4/bin/jflex script executable
+IDEA-71391 Adds --rename-manifest-package to AndroidFacetConfiguration
+IDEA-94184 hardcoded value ChooseByNameBase#REBUILD_DELAY moved to registry.properties
+Add right margin guideline to commit message editor
+IDEA-96000 + IDEA-96001
+IDEA-95644 Support console input filtering
+New highlights
+IDEA-92541
+IDEA-35950  Generate ant build adds generated file to Ant Build window
+IDEABKL-5131: Web Proxy: Auto-configuration URL
+IDEA-73063 / IDEA-83158
+IDEA-91145 Enhance org.jetbrains.idea.maven.server.MavenEmbedderWrapper#execute to be able to specify the project list and explicit profile exclusions
+Idea 91145
+FogBugz tasks integration for IntelliJ
+Hg4idea create branch
+IDEA-74131 Maven interpolation error: Failed to interpolate field
+IDEA-80292 RunProfile name are too much truncated in file context popup menu
+Updated Bundled TestNG version to 6.5.2
+Fix JFlex's Action.GENERAL_LOOK lookahead option to work with --charAt and --sliceandcharat
+Remove extra space in the "Click to browse" link
+IDEA-80292 RunProfile name are too much truncated in file context popup menu
+IDEA-88526 When applying dark color scheme and ColorIde plugin then several types of tree nodes are always have black text color
+IDEA-88520 When applying dark color scheme and ColorIde plugin then settings tree is displayed incorrectly
+IDEA-88520 When applying dark color scheme and ColorIde plugin then settings tree is displayed incorrectly
+IDEA-69292 make merge possible from console
+Hi, this is a bugfix IDEA-78472
+IDEA-76312 Copyright: "No Copyright available" dialog opens empty Settings
+git4idea: option "interactive" on rebase not default
+git4idea: no "interactive" option on rebase by default
