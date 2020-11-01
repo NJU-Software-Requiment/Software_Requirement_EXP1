@@ -14,7 +14,8 @@ def train(inp,outp):
     model.save(outp)
     #model.wv.save_word2vec_format(outp2, binary=False)
 
-retrain=True
+#retrain=True
+retrain=False
 if retrain==True:
     for i in file_names:
         inp = 'data/' + i + '.txt'
@@ -23,10 +24,12 @@ if retrain==True:
         train(inp,outp1)
 
 def test(model):
-    model = Word2Vec.load(model)
+    model = Word2Vec.load("Model/"+model)
 
     testwords = ['debug', 'editor', 'console', 'code']
     for i in range(len(testwords)):
         res = model.most_similar(testwords[i],topn=10)
         print(testwords[i])
         print(res)
+
+test('ide_ques.model')
