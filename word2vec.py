@@ -6,7 +6,7 @@ import multiprocessing
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
 
-file_names=['ide_ques','vscode_issues_title','vscode_pr_title']
+file_names=['ide_ques','vscode_issues_title','vscode_pr_title','idea_pr_title']
 def train(inp,outp):
     #outp2 = 'Model/test.vector'
     model = Word2Vec(LineSentence(inp), size=200, window=5, min_count=5,
